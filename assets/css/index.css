@@ -15,6 +15,7 @@ body {
 .header {
     height: 100%;
     position: relative;
+    z-index: 10;
 }
 
 .navbar {
@@ -210,6 +211,38 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: var(--primary-color);
+        position: fixed; 
+        top: 45px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 11;
+        padding-top: 20px; 
+        display: none;
+    }
+    
+    .navbar-collapse.show {
+        display: block;
+        opacity: 0.95;
+    }
+    
+    .nav-link {
+        color: var(--accent-color); 
+        font-size: 20px; 
+        padding: 10px;
+    }
+    
+    .nav-link:hover {
+        color: #ffffff; 
+        text-decoration: underline; 
+    }
+    
+    .navbar-toggler {
+        z-index: 12; 
+    }
+
     .text-box {
         width: 90%;
         left: 5%;
