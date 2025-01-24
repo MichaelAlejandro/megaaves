@@ -245,7 +245,7 @@ body {
     .card-contact {
         position: absolute;
         left: 10%;
-        height: 50%;
+        height: auto;
         width: 80%;
         opacity: 0.9;
     }
@@ -260,7 +260,7 @@ body {
         position: absolute;
         left: 10%;
         top: 85%;
-        height: 50%;
+        height: auto;
         width: 80%;
         opacity: 0.9;
     }
