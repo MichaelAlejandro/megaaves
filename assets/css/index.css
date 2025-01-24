@@ -153,6 +153,9 @@ body {
     height: 310px;
     padding: 20px;
     background: #F1F1F1;
+    position: absolute; 
+    border-radius: 5px 0 0 0;
+    left: 10%;
 }
 
 .card-contact h2 {
@@ -220,6 +223,10 @@ body {
     
     .products,
     .contact{
+        width: 110%;
+    }
+
+    .card-product {
         width: 100%;
     }
 }
