@@ -11,7 +11,7 @@ body {
     font-family: var(--font-primary);
 }
 
-/* Header Styles */
+/* Header */
 .header {
     height: 100%;
     position: relative;
@@ -71,7 +71,7 @@ body {
     background-color: #000;
 }
 
-/* Products Styles */
+/* Products */
 .products {
     width: 754px;
     height: 100%;
@@ -116,7 +116,7 @@ body {
     line-height: 14.06px;
 }
 
-/* Brands Styles */
+/* Brands */
 .brands {
     height: 488px;
     position: relative;
@@ -137,7 +137,7 @@ body {
     object-fit: contain;
 }
 
-/* Contact Styles */
+/* Contact */
 .contact {
     width: 696px;
     height: 100%;
@@ -175,7 +175,7 @@ body {
     margin-right: 10px;
 }
 
-/* Footer Styles */
+/* Footer */
 .footer {
     height: 221px;
     background: var(--primary-color);
@@ -209,8 +209,14 @@ body {
     text-decoration: none;
 }
 
-/* Responsive Styles */
+/* Responsivos */
 @media (max-width: 992px) {
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 10; 
+    }
+
     .navbar-collapse {
         background-color: var(--primary-color);
         position: fixed; 
