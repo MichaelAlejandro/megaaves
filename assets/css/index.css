@@ -92,7 +92,7 @@ body {
 
 .product-text {
     width: 95%;
-    height: 164px;
+    height: auto;
 }
 
 .product-text h2 {
